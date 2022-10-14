@@ -1,67 +1,110 @@
+/*Main blocks*/
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    background-image: url("../img/hand.jpg");
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
+    background-size: 1300px;
+    background-position-x: 320px;
 }
 
 header {
-    background-color: rgba(255, 127, 80, 0);
+    background-color: rgba(56, 54, 54, 0.682);
     display: flex;
     justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 65px;
+    padding-bottom: 30px;
 }
 
-.main {
-    background-color: rgba(95, 158, 160, 0);
+section {
     display: flex;
     justify-content: center;
 }
 
 .left {
-    background-color: rgba(190, 50, 50, 0);
-    min-width: 290px;
-}
-
-.right {
-    background-color: rgba(42, 165, 46, 0);
-    min-width: 290px;
+    background-color: rgba(0, 255, 255, 0);
 }
 
 .center {
-    flex: 1 200px;
-    max-width: 700px;
-    padding: 25px;
-    
-}
-
-img {
-    padding: 65px;
-}
-
-/*.dm {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-width: 700px;
-}
-
-.left {
-    background-color: rgba(255, 228, 196, 0.571);
-    min-width: 200px;
+    flex-wrap: wrap;
+    background-color: rgba(56, 54, 54, 0.682);
+    border-radius: 8px;
+    margin: auto;
 }
 
 .right {
-    background-color: rgba(165, 42, 42, 0.409);
+    background-color: rgba(11, 184, 25, 0);
+    vertical-align: middle;
+}
+
+.left,
+.right {
+    height: auto;
     min-width: 200px;
-}*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center {
+    height: auto;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(56, 54, 54, 0.682);
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    min-width: 400px;
+}
+
+p {
+    padding: 20px;
+    margin-top: 45px;
+ }
+
+.maintitle {
+    font-weight: 900;
+    font-size: x-large;
+}
+
+/*Center Div*/
 
 a {
-    text-decoration: none;
-    color: black;
+    color: antiquewhite;
 }
 
 ul {
     list-style-type: none;
     font-size: larger;
     font-weight: 700px;
+}
+
+li {
+    padding-bottom: 30px;
+}
+
+h2 {
+    margin: auto;
+    padding-top: 20px;
 }
